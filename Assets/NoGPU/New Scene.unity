@@ -182,7 +182,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 10000
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -209,8 +209,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25504623}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.010331759, y: 0.16331644, z: -0.0017098088, w: 0.9865182}
+  m_LocalPosition: {x: 132.75426, y: 600.519, z: 126.68836}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -429,7 +429,7 @@ MonoBehaviour:
   terrainLength: 10240
   terrainWidth: 10240
   heightMultiplier: 2048
-  terrainMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  terrainMaterial: {fileID: 2100000, guid: b35fd8c17ce89a4418833bd4b9f2864e, type: 2}
 --- !u!4 &894919649
 Transform:
   m_ObjectHideFlags: 0

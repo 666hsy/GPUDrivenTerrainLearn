@@ -35,10 +35,7 @@ public class TerrainGenerator : MonoBehaviour
             }
         }
         terrainData.SetHeights(0, 0, heights);
-
-        // 这里法线图暂时仅作展示，Unity地形组件本身不直接使用法线图
-        // 可以在后续的着色器中使用法线图来模拟细节
-        // 示例：将法线图设置为地形材质的法线贴图
+        
         terrain.materialTemplate = terrainMaterial;
 
         // 应用地形数据
